@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 20em;
+    background-color: rgb(255, 255, 255);
+    border: rgba(0, 0, 0, 0.223) 1px solid;
+    font-size: 16px;
+}
+
+.text {
+    margin-left: 9px;
+}
+
+.text h3 {
+    margin-bottom: -15px;
+}
+
+.text-p {
+    color: rgba(169, 169, 169, 0.659);
+}
+
+.item-chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-right: -25px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.486);
+}
+
+.item-texto-img {
+    display: flex;
+    align-items: center;
+}
+
+menu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50%;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.486);
+}
+
+button {
+    background-color: rgb(194, 162, 225);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.barra-contactos {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.486);
+}
+
+.logo {
+    height: 800px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+}
+
+.icons {
+    color: rgba(120, 115, 115, 0.708);
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-principal {
+    height: 854px;
+    width: 990px;
+    Flex-basis: 1202px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f7f3;
+    border: rgba(0, 0, 0, 0.223) 1px solid;
+}
+
+.img-menu {
+    text-align: center;
+    justify-content: center;
+}
+
+.img-logo {
+    border-radius: 20px;
+    width: 200px;
+}
+
+span {
+    font-weight: 700;
+}
